@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useCallback } from "react";
+import Image from "next/image";
 
 export default function Header() {
   const closeNavigation = useCallback(() => {
@@ -50,7 +51,14 @@ export default function Header() {
   return (
     <header className="site-header" data-header>
       <a className="brand" href="#home" aria-label="RaraPathways home">
-        <span className="brand-mark">RP</span>
+        <Image
+          className="brand-logo"
+          src="/Image/Logo.png"
+          alt="RaraPathways logo"
+          width={42}
+          height={42}
+          priority
+        />
         <span>
           <strong>RaraPathways</strong>
           <small>Global mobility consultancy</small>

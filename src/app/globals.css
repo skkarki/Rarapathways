@@ -76,7 +76,8 @@ img {
   min-width: max-content;
 }
 
-.brand-mark {
+.brand-mark,
+.brand-logo {
   display: grid;
   place-items: center;
   width: 42px;
@@ -87,10 +88,13 @@ img {
   background: rgba(255, 255, 255, 0.08);
   font-weight: 800;
   font-size: 0.78rem;
+  object-fit: contain;
 }
 
 .site-header.is-scrolled .brand-mark,
-.site-header.is-open .brand-mark {
+.site-header.is-open .brand-mark,
+.site-header.is-scrolled .brand-logo,
+.site-header.is-open .brand-logo {
   color: var(--navy-900);
   background: #fff7e1;
   border-color: rgba(201, 154, 50, 0.42);
