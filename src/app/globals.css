@@ -208,17 +208,8 @@ img {
 .hero-media {
   position: absolute;
   inset: 0 0 0 34%;
-  background:
-    radial-gradient(circle at 19% 29%, var(--gold-300) 0 4px, rgba(240, 210, 138, 0.24) 5px 26px, transparent 27px),
-    radial-gradient(circle at 44% 25%, var(--gold-300) 0 4px, rgba(240, 210, 138, 0.2) 5px 28px, transparent 29px),
-    radial-gradient(circle at 61% 42%, var(--gold-300) 0 4px, rgba(240, 210, 138, 0.2) 5px 30px, transparent 31px),
-    radial-gradient(circle at 78% 30%, var(--gold-300) 0 4px, rgba(240, 210, 138, 0.2) 5px 26px, transparent 27px),
-    radial-gradient(circle at 82% 62%, var(--gold-300) 0 4px, rgba(240, 210, 138, 0.2) 5px 28px, transparent 29px),
-    linear-gradient(26deg, transparent 0 32%, rgba(240, 210, 138, 0.55) 32.2% 32.7%, transparent 33%),
-    linear-gradient(145deg, transparent 0 35%, rgba(240, 210, 138, 0.42) 35.2% 35.7%, transparent 36%),
-    linear-gradient(159deg, transparent 0 48%, rgba(240, 210, 138, 0.45) 48.2% 48.7%, transparent 49%),
-    linear-gradient(58deg, transparent 0 46%, rgba(240, 210, 138, 0.36) 46.2% 46.7%, transparent 47%);
-  opacity: 0.9;
+  background: url("/Image/Raralogo.png") center center / contain no-repeat;
+  opacity: 0.15;
 }
 
 .hero-content {
