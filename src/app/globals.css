@@ -202,14 +202,14 @@ img {
   content: "";
   position: absolute;
   inset: 0;
-  background: linear-gradient(90deg, rgba(6, 21, 47, 0.6) 0%, rgba(6, 21, 47, 0.4) 50%, rgba(6, 21, 47, 0.2) 100%);
+  background: linear-gradient(90deg, rgba(6, 21, 47, 0.45) 0%, rgba(6, 21, 47, 0.25) 50%, rgba(6, 21, 47, 0.1) 100%);
 }
 
 .hero-media {
   position: absolute;
   inset: 0;
   background: url("/Image/Raralogo.png") center center / cover no-repeat;
-  opacity: 0.7;
+  opacity: 0.85;
 }
 
 .hero-content {
