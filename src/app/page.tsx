@@ -247,6 +247,9 @@ export default function Home() {
               <strong>Email:</strong> ceo@rarapathways.com
             </p>
             <p>
+              <strong>Info:</strong> info@rarapathways.com
+            </p>
+            <p>
               <strong>Office:</strong> Dubai office location placeholder
             </p>
           </div>
