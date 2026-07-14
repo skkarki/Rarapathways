@@ -14,6 +14,25 @@ export const metadata: Metadata = {
       "Premium consultancy for study abroad admissions, immigration, PR, work visas, tourist visas, and documentation assistance.",
     url: "https://rarapathways.com/",
     type: "website",
+    images: [
+      {
+        url: "/Image/Raralogo.png",
+        width: 1200,
+        height: 1200,
+        alt: "RaraPathways",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "RaraPathways | Your Gateway to Study, Work & Live Abroad",
+    description:
+      "Premium consultancy for study abroad admissions, immigration, PR, work visas, tourist visas, and documentation assistance.",
+    images: ["/Image/Raralogo.png"],
+  },
+  icons: {
+    icon: "/Image/Raralogo.png",
+    apple: "/Image/Raralogo.png",
   },
 };
 
