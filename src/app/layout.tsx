@@ -38,6 +38,9 @@ export const metadata: Metadata = {
     ],
     apple: "/Image/Logo.png",
   },
+  verification: {
+    google: "googlee00c5a19f67f8906",
+  },
 };
 
 export default function RootLayout({
