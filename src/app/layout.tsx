@@ -32,8 +32,11 @@ export const metadata: Metadata = {
     images: ["/Image/Raralogo.png"],
   },
   icons: {
-    icon: "/Image/Raralogo.png",
-    apple: "/Image/Raralogo.png",
+    icon: [
+      { url: "/favicon.png", type: "image/png" },
+      { url: "/Image/Logo.png", type: "image/png" },
+    ],
+    apple: "/Image/Logo.png",
   },
 };
 
@@ -44,6 +47,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" href="/favicon.png" type="image/png" />
+      </head>
       <body>
         <Header />
         {children}
