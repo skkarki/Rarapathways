@@ -3,6 +3,7 @@ import "./globals.css";
 import Header from "./Header";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://rarapathways.vercel.app"),
   title: "RaraPathways | Immigration & Study Abroad Consultancy",
   description:
     "RaraPathways is a Dubai-based immigration and study abroad consultancy helping clients with admissions, PR pathways, work permits, tourist visas, passports, and documentation support.",
