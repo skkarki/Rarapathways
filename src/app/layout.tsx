@@ -33,6 +33,7 @@ export const metadata: Metadata = {
   },
   icons: {
     icon: [
+      { url: "/favicon.ico", type: "image/x-icon" },
       { url: "/favicon.png", type: "image/png" },
       { url: "/Image/Logo.png", type: "image/png" },
     ],
@@ -51,6 +52,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        <link rel="icon" href="/favicon.ico" sizes="any" />
         <link rel="icon" href="/favicon.png" type="image/png" />
       </head>
       <body>
