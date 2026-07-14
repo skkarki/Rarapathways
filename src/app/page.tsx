@@ -244,10 +244,12 @@ export default function Home() {
               WhatsApp Consultation
             </a>
             <p>
-              <strong>Email:</strong> ceo@rarapathways.com
+              <strong>Email:</strong>{" "}
+              <a href="mailto:ceo@rarapathways.com">ceo@rarapathways.com</a>
             </p>
             <p>
-              <strong>Info:</strong> info@rarapathways.com
+              <strong>Info:</strong>{" "}
+              <a href="mailto:info@rarapathways.com">info@rarapathways.com</a>
             </p>
             <p>
               <strong>Office:</strong> Dubai office location placeholder
