@@ -238,13 +238,13 @@ export default function Home() {
           <div className="contact-methods">
             <a
               className="whatsapp"
-              href="https://wa.me/971000000000?text=Hello%20RaraPathways%2C%20I%20would%20like%20to%20book%20a%20consultation."
+              href="https://wa.me/971505755217?text=Hello%20RaraPathways%2C%20I%20would%20like%20to%20book%20a%20consultation."
               aria-label="Contact RaraPathways on WhatsApp"
             >
               WhatsApp Consultation
             </a>
             <p>
-              <strong>Email:</strong> info@rarapathways.com
+              <strong>Email:</strong> ceo@rarapathways.com
             </p>
             <p>
               <strong>Office:</strong> Dubai office location placeholder
@@ -253,7 +253,7 @@ export default function Home() {
         </div>
         <form
           className="contact-form"
-          action="mailto:info@rarapathways.com"
+          action="mailto:ceo@rarapathways.com"
           method="post"
           encType="text/plain"
         >
