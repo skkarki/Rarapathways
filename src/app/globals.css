@@ -602,6 +602,40 @@ textarea:focus {
   font-weight: 800;
 }
 
+.share-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  align-items: center;
+  width: 100%;
+  padding-top: 18px;
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
+  margin-top: 10px;
+}
+
+.share-label {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
+.share-section a,
+.share-copy {
+  color: var(--gold-300);
+  font-weight: 700;
+  font-size: 0.88rem;
+  cursor: pointer;
+  background: none;
+  border: none;
+  font: inherit;
+  padding: 0;
+}
+
+.share-section a:hover,
+.share-copy:hover {
+  text-decoration: underline;
+}
+
 @media (max-width: 1000px) {
   .header-cta {
     display: none;

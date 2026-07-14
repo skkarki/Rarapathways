@@ -1,3 +1,5 @@
+import ShareButton from "./ShareButton";
+
 export default function Home() {
   return (
     <main id="home">
@@ -245,7 +247,7 @@ export default function Home() {
             </a>
             <p>
               <strong>Email:</strong>{" "}
-              <a href="mailto:ceo@rarapathways.com">ceo@rarapathways.com</a>
+              <a href="mailto:rarapathways@gmail.com">rarapathways@gmail.com</a>
             </p>
             <p>
               <strong>Info:</strong>{" "}
@@ -258,7 +260,7 @@ export default function Home() {
         </div>
         <form
           className="contact-form"
-          action="mailto:ceo@rarapathways.com"
+          action="mailto:rarapathways@gmail.com"
           method="post"
           encType="text/plain"
         >
@@ -305,6 +307,7 @@ export default function Home() {
           <a href="#countries">Countries</a>
           <a href="#contact">Contact</a>
         </div>
+        <ShareButton />
       </footer>
     </main>
   );
